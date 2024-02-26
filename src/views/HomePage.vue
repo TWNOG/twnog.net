@@ -92,14 +92,11 @@ export default {
     nextInfo() {
       this.currentIndex = (this.currentIndex + 1) % this.info.length;
     },
-    goToCallForSpeakers() {
-      window.location.href = '你的徵求演講页面URL';
-    },
     goToEventRegistration() {
       window.location.href = 'https://twnog.kktix.cc/events/2024twnog5';
     },
     goToSponsorUs() {
-      window.location.href = '你的我要赞助页面URL';
+      window.location.href = '我要贊助頁面的URL';
     },
   },
 };
